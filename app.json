@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "SplitSmart",
+    "slug": "splitsmart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "splitsmart",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.studentutility.splitsmart",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sharing"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "179e2e01-1406-4334-a047-bfc680f7ec7f"
+      }
+    },
+    "owner": "shri04"
+  }
+}
